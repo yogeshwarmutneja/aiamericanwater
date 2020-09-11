@@ -23,7 +23,10 @@ body {
     padding: 0px;
     height: 5rem;
     color: white;
+    width: 100%;
     background-color: black;
+    position:fixed ;
+    top: 0; 
 }
 
 .navbar p{
@@ -31,10 +34,23 @@ body {
     padding: 0px;
     font-size: 2rem;
     padding: 1.2rem;
-    padding-left: 3rem;
+    padding-left: 7rem;
+
+}
+
+.bstar {
+    margin-left: 3rem;
+    margin-top: 0.7rem;
+    float: left;
+    /*display: inline-block;*/
+    height: 3rem;
 }
 
 /* rooms */
+
+.rooms{
+    margin-top: 8rem;
+}
 
 .rooms-cards-wrapper {
     display: flex;
